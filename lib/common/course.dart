@@ -20,9 +20,9 @@ class _CoursePageState extends State<CoursePage> {
   int currentIndex = 0;
 
   List<User> userList = [
-    User(name: "hemanth", code: "a", id: "1"),
-    User(name: "flutter", code: "b", id: "2"),
-    User(name: "code", code: "c", id: "3"),
+    User(name: "abc", code: "a", id: "1"),
+    User(name: "ccc", code: "b", id: "2"),
+    User(name: "ddd", code: "c", id: "3"),
   ];
 
   @override
