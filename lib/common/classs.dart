@@ -211,7 +211,7 @@ class _ClassPageState extends State<ClassPage> {
                               // const SizedBox(height:90),
                               ElevatedButton(
                                 style: ElevatedButton.styleFrom(
-                                  primary: Color.fromARGB(255, 25, 131, 28),
+                                  primary: Constants.tc,
                                 ),
                                 child: const Text(
                                   "ADD",
