@@ -36,7 +36,9 @@ class classs extends StatelessWidget {
                   hintText: 'Enter your name.',
                   icon: const Icon(Icons.person),
                 ),
+               
               ),
+            
               TextFormField(
                 controller: _code,
               

@@ -48,12 +48,12 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
               NavigationRailDestination(
                 icon: Icon(Icons.favorite_border),
                 selectedIcon: Icon(Icons.favorite),
-                label: Text('First'),
+                label: Text('class'),
               ),
               NavigationRailDestination(
                 icon: Icon(Icons.bookmark_border),
                 selectedIcon: Icon(Icons.book),
-                label: Text('Second'),
+                label: Text('course'),
               ),
               
             ],
