@@ -1,3 +1,4 @@
+import 'constants.dart';
 import 'package:flutter/material.dart';
 import 'modal.dart';
 
@@ -36,7 +37,7 @@ class _ClassPageState extends State<ClassPage> {
                   "Name",
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
-                      color: Color.fromARGB(255, 7, 61, 105)),
+                      color: Constants.ta),
                 ),
                 tooltip: "To Display name"),
             DataColumn(
@@ -44,7 +45,7 @@ class _ClassPageState extends State<ClassPage> {
                   "Code",
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
-                      color: Color.fromARGB(255, 7, 61, 105)),
+                      color: Constants.ta),
                 ),
                 tooltip: "To Display code"),
             DataColumn(
@@ -52,7 +53,7 @@ class _ClassPageState extends State<ClassPage> {
                   "ID",
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
-                      color: Color.fromARGB(255, 7, 61, 105)),
+                      color: Constants.ta),
                 ),
                 tooltip: "To Display ID"),
             DataColumn(
@@ -60,7 +61,7 @@ class _ClassPageState extends State<ClassPage> {
                   "Update",
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
-                      color: Color.fromARGB(255, 7, 61, 105)),
+                      color: Constants.ta),
                 ),
                 tooltip: "Update data"),
             DataColumn(
@@ -68,7 +69,7 @@ class _ClassPageState extends State<ClassPage> {
                   "Delete",
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
-                      color: Color.fromARGB(255, 7, 61, 105)),
+                      color: Constants.ta),
                 ),
                 tooltip: "Delete data"),
           ],
@@ -116,7 +117,7 @@ class _ClassPageState extends State<ClassPage> {
         );
 
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 242, 245, 247),
+      backgroundColor: Constants.tb,
       appBar: AppBar(
         title: const Text(
           "Class Information",

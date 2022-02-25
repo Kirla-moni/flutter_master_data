@@ -4,7 +4,7 @@ import 'common/nav.dart';
 void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
-  static const String _title = 'Flutter Code Sample';
+  static const String _title = 'Flutter ';
 
   const MyApp({Key? key}) : super(key: key);
 

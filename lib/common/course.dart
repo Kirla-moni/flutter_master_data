@@ -1,12 +1,6 @@
 import 'package:flutter/material.dart';
-
-class User {
-  final String name;
-  final String code;
-  final String id;
-
-  User({required this.name, required this.code, required this.id});
-}
+import 'modal.dart';
+import 'constants.dart';
 
 class CoursePage extends StatefulWidget {
   const CoursePage({Key? key}) : super(key: key);
@@ -43,7 +37,7 @@ class _CoursePageState extends State<CoursePage> {
                   "Name",
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
-                      color: Color.fromARGB(255, 7, 61, 105)),
+                      color: Constants.ta),
                 ),
                 tooltip: "To Display name"),
             DataColumn(
@@ -51,7 +45,7 @@ class _CoursePageState extends State<CoursePage> {
                   "Code",
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
-                      color: Color.fromARGB(255, 7, 61, 105)),
+                      color: Constants.ta),
                 ),
                 tooltip: "To Display code"),
             DataColumn(
@@ -59,7 +53,7 @@ class _CoursePageState extends State<CoursePage> {
                   "ID",
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
-                      color: Color.fromARGB(255, 7, 61, 105)),
+                      color: Constants.ta),
                 ),
                 tooltip: "To Display ID"),
             DataColumn(
@@ -67,7 +61,7 @@ class _CoursePageState extends State<CoursePage> {
                   "Update",
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
-                      color: Color.fromARGB(255, 7, 61, 105)),
+                      color: Constants.ta),
                 ),
                 tooltip: "Update data"),
             DataColumn(
@@ -75,7 +69,7 @@ class _CoursePageState extends State<CoursePage> {
                   "Delete",
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
-                      color: Color.fromARGB(255, 7, 61, 105)),
+                      color: Constants.ta),
                 ),
                 tooltip: "Delete data"),
           ],
@@ -125,7 +119,7 @@ class _CoursePageState extends State<CoursePage> {
     return Scaffold(
       backgroundColor: Color.fromARGB(255, 230, 236, 240),
       appBar: AppBar(
-        title: Text(
+        title: const Text(
           "Course Information",
           style: TextStyle(color: Colors.white),
         ),
@@ -135,7 +129,7 @@ class _CoursePageState extends State<CoursePage> {
       body: Center(
         child: Column(
           children: <Widget>[
-            // Container(height: 20, width: 200,child: Text("Cousres"),color: Colors.amberAccent),
+            
             bodyData(),
             Padding(
               padding: const EdgeInsets.all(10.0),
