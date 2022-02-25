@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors, prefer_final_fields
+// ignore_for_file: prefer_const_constructors, prefer_final_fields, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
 
@@ -55,6 +55,20 @@ class classs extends StatelessWidget {
                   icon: const Icon(Icons.person),
                 ),
                
+              ),
+               const SizedBox(height: 20.0),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  ElevatedButton(
+                    // color: Colors.blue,
+
+                    child:  Text('Submit',
+                        style: const TextStyle(
+                            color: Colors.white, fontSize: 16.0)),
+                            onPressed: (){},
+                  ),
+                ],
               ),
             ],
           ),
