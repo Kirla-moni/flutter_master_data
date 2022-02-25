@@ -24,7 +24,7 @@ class _HomeWidgetState extends State<HomeWidget> {
         body: Row(
       children: [
         NavigationRail(
-     backgroundColor: Colors.blue,
+     backgroundColor: Color.fromARGB(255, 4, 54, 95),
           onDestinationSelected: (index) {
             setState(() {
               _selectedIndex = index;
