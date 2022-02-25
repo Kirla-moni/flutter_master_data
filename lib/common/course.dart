@@ -20,7 +20,7 @@ class _CoursePageState extends State<CoursePage> {
   int currentIndex = 0;
 
   List<User> userList = [
-    User(name: "a", code: "a", id: "1"),
+    User(name: "g", code: "a", id: "1"),
     User(name: "d", code: "b", id: "2"),
     User(name: "c", code: "c", id: "3"),
   ];
