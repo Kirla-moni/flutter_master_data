@@ -232,7 +232,7 @@ class _ClassPageState extends State<ClassPage> {
                               const SizedBox(width: 20),
                               ElevatedButton(
                                 style: ElevatedButton.styleFrom(
-                                  primary: Color.fromARGB(255, 38, 36, 175),
+                                  primary: Constants.td,
                                 ),
                                 child: const Text(
                                   "UPDATE",
